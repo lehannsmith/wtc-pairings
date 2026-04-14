@@ -62,7 +62,7 @@ def main():
     # Load matrix
     matrix_path = input("\n  Enter path to matrix CSV [default: data/matrix.csv]: ").strip()
     if not matrix_path:
-        matrix_path = "C:/Users/smith/PycharmProjects/PythonProject/wtc-pairings/backend/data/matrix.csv"
+        matrix_path = "/PairingsProject/wtc-pairings/backend/data/matrix.csv"
 
     try:
         matrix = load_matrix(matrix_path)
